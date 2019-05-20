@@ -21,7 +21,7 @@
 
 
 #body {
-    background-color: red;
+    background-image: url("../images/background.jpeg")
 }
 
 .jumbotron {
