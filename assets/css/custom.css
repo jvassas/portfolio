@@ -1,0 +1,49 @@
+
+.card {
+    
+    align-content: center;
+    margin: 40px;
+    background-color: #f8f9fa!important;
+    box-shadow: 7px 7px rgb(209, 204, 204);
+    border: solid 2px rgb(42, 42, 102);
+}
+
+.card-container {
+    padding-top: 50px;
+    padding-right:30px;
+    padding-left: 30px;
+}
+
+.nav {
+    border-bottom: solid 2px rgb(42, 42, 102);
+    background-color: rgb(245, 244, 244);
+}
+
+
+#body {
+    background-color: red;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.container {
+    background-color: transparent;
+    border: solid 1px gray;
+    opacity: 30%;
+    background-color: rgb(245, 244, 244);
+}
+
+.abt {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#avatar {
+
+}
+
+.panel-title{
+    padding-top: 50px;
+}
