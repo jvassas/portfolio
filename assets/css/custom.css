@@ -1,11 +1,12 @@
-
+.navbar-nav {
+    width: 100%;
+}
 .card {
     
     align-content: center;
     margin: 40px;
-    background-color: #f8f9fa!important;
-    box-shadow: 7px 7px rgb(209, 204, 204);
-    border: solid 2px rgb(42, 42, 102);
+    background: rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 2px black;
 }
 
 .card-container {
@@ -15,24 +16,31 @@
 }
 
 .nav {
-    border-bottom: solid 2px rgb(42, 42, 102);
-    background-color: rgb(245, 244, 244);
+    background-color: transparent;
 }
 
 
-#body {
-    background-image: url("../images/background.jpeg")
+.body {
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .jumbotron {
     background-color: transparent;
 }
 
-.container {
+.bio {
     background-color: transparent;
-    border: solid 1px gray;
-    opacity: 30%;
-    background-color: rgb(245, 244, 244);
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.intro {
+    font-size: 25px;
 }
 
 .abt {
@@ -46,4 +54,10 @@
 
 .panel-title{
     padding-top: 50px;
+}
+
+
+.contact {
+    margin-top: 100px;
+    text-align: auto;
 }
