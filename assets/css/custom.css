@@ -1,5 +1,8 @@
 .navbar-nav {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 215%;
 }
 .card {
     
@@ -19,15 +22,26 @@
     background-color: transparent;
 }
 
+.navlink {
+    display: flex;
+    justify-content: center;
+}
+
 
 .body {
     background-image: url("../images/background.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    
 }
 
 .jumbotron {
-    background-color: transparent;
+    background-image: url("../images/logo5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-right: 0%;
 }
 
 .bio {
@@ -35,21 +49,25 @@
     margin-left: 70px;
     margin-right: 70px;
     padding: 40px;
-    background: rgba(0, 0, 0, 0.2);
-
-}
-
-.intro {
-    font-size: 25px;
 }
 
 .abt {
-    padding-top: 30px;
-    padding-left: 20px;
+    text-align: center;
+}
+
+
+.caption {
+    margin-top: 50px;
+}
+
+.pages {
+    text-align: center;
 }
 
 #avatar {
-
+    margin-top: 40px;
+    float: left;
+    padding-right: 25px;
 }
 
 .panel-title{
@@ -64,4 +82,8 @@
 
 .h1 {
     font-size: 70px;
+}
+
+.footer {
+    text-align: center;
 }
