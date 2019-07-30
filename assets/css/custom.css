@@ -4,12 +4,16 @@
     justify-content: center;
     margin-left: 215%;
 }
+
+.page-header {
+    text-align: center;
+}
+
+.card-group {
+    margin-top: 25px;
+}
 .card {
-    
-    align-content: center;
-    margin: 40px;
-    background: rgba(0, 0, 0, 0.19);
-    box-shadow: 4px 2px black;
+    margin: 15px;
 }
 
 .card-container {
@@ -35,29 +39,25 @@
 
 .jumbotron {
     background-image: url("../images/logo5.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-size: auto 100%;
     height:100vh;
-    width: 100%;
+    width: 120%;
     background-repeat: no-repeat;
-    margin-right: 0%;
+    margin-right: -5%;
+    
+    padding:0!important;
 }
 
-.bio {
-    background-color: transparent;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding: 40px;
-}
 
-.abt {
-    text-align: center;
-}
+
+
 
 
 .caption {
     margin-top: 50px;
+    padding: 30px;
+    margin-right: 20px;
+    text-align: left;
 }
 
 .pages {
@@ -67,7 +67,7 @@
 #avatar {
     margin-top: 40px;
     float: left;
-    padding-right: 25px;
+    padding: 30px;
 }
 
 .panel-title{
@@ -85,5 +85,9 @@
 }
 
 .footer {
+    text-align: center;
+}
+
+.disclaimer {
     text-align: center;
 }
